@@ -1,22 +1,35 @@
 .contact {
-  max-width: 100%;
-  margin: 0 auto;
-  background-color: #f0f1f3;
-  padding: 2rem 1rem;
-  border-radius: 8px;
+  background: linear-gradient(135deg, #7094e3, #56dfcf);
+  padding: 2rem 0 3rem;
   text-align: center;
+  color: rgb(57, 19, 19);
+}
+
+.contact:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
 }
 
 .contact h2 {
-  font-size: 2rem;
-  margin-bottom: 1rem;
+  font-size: 2.2rem;
+  margin-bottom: 2rem;
+  color: #0f172a;
+}
+
+.contact p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #0f172a;
 }
 
 .contact a {
-  color: #1e40af;
-  text-decoration: none;
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #3502aa; 
+  transition: color 0.3s, transform 0.3s;
 }
 
 .contact a:hover {
-  text-decoration: underline;
+  color: #ba6324;;
+  transform: scale(1.05); 
 }

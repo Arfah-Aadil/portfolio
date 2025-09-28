@@ -1,19 +1,25 @@
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   background-color: #f9fafb;
   color: #0f172a;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
 }
 
 a {
   text-decoration: none;
-  color: inherit;
+  transition: all 0.3s ease;
 }
 
-section {
-  padding: 3rem 1rem;
+button {
+  cursor: pointer;
 }

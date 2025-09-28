@@ -1,50 +1,63 @@
 .header {
-  background-color: #f0f1f3;
-  padding: 1rem 0;
+  background: linear-gradient(135deg, #7094e3, #56dfcf);
+  padding: 2rem 0 3rem;
   text-align: center;
+  color: rgb(57, 19, 19);
 }
 
 .nav-bar {
   display: flex;
   justify-content: center;
   gap: 2rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   font-weight: 500;
 }
 
 .nav-bar a {
-  text-decoration: none;
-  color: #1e293b;
-  transition: color 0.3s;
+  color: #031b2c;
+  position: relative;
+  font-size: 1rem;
 }
 
-.nav-bar a:hover {
-  color: #2563eb;
+.nav-bar a::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background: white;
+  transition: width 0.3s ease;
+}
+
+.nav-bar a:hover::after {
+  width: 100%;
 }
 
 .header-content h1 {
   font-size: 3rem;
   margin: 0.5rem 0;
-  color: #0f172a;
 }
 
 .header-content .subtitle {
   font-size: 1.3rem;
-  color: #334155;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 400;
 }
 
 .resume-btn {
   display: inline-block;
-  padding: 0.6rem 1.2rem;
-  background-color: #4b7be3;
+  padding: 0.7rem 1.5rem;
+  background: linear-gradient(90deg, #f97316, #fb923c); 
   color: white;
-  border-radius: 6px;
+  border-radius: 8px;
   font-weight: 500;
-  text-decoration: none;
-  transition: background-color 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s, background 0.3s;
 }
 
 .resume-btn:hover {
-  background-color: #1e40af;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+  background: linear-gradient(90deg, #ea580c, #f97316); 
 }
