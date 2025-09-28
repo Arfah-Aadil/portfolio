@@ -1,0 +1,34 @@
+.projects {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.projects-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-card {
+  background-color: #eef2f7;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.project-card h3 a {
+  color: #1e40af;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.project-card h3 a:hover {
+  color: #2563eb;
+  text-decoration: underline;
+}

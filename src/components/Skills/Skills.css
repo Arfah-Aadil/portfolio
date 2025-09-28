@@ -1,0 +1,29 @@
+.skills {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.skill-card {
+  background-color: #eef2f7;
+  padding: 0.6rem 1rem;
+  border-radius: 6px;
+  font-weight: 500;
+  color: #1e293b;
+  transition: background-color 0.3s;
+}
+
+.skill-card:hover {
+  background-color: #c7d2fe;
+}

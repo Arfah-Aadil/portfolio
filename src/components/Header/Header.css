@@ -1,0 +1,50 @@
+.header {
+  background-color: #f0f1f3; 
+  padding: 1rem 0;
+  text-align: center;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center; 
+  gap: 2rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.nav-bar a {
+  text-decoration: none;
+  color: #1e293b;
+  transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #2563eb;
+}
+
+.header-content h1 {
+  font-size: 3rem;
+  margin: 0.5rem 0;
+  color: #0f172a;
+}
+
+.header-content .subtitle {
+  font-size: 1.3rem;
+  color: #334155;
+  margin-bottom: 1rem;
+}
+
+.resume-btn {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  background-color: #4b7be3;
+  color: white;
+  border-radius: 6px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.resume-btn:hover {
+  background-color: #1e40af;
+}

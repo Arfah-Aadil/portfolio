@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fdfdfd;
+  color: #1a1a1a;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 600;
+}
+
+section {
+  max-width: 1000px;
+  margin: 1.5rem auto;  
+  padding: 1.5rem 1rem; 
+}
