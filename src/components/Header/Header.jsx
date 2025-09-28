@@ -12,7 +12,7 @@ function Header() {
 
       <div className="header-content">
         <h1>Arfah Aadil</h1>
-        <p className="subtitle">MSc in Software Engineering | Full Stack Developer </p>
+        <p className="subtitle">MSc in Software Engineering | Full Stack Developer</p>
         <a href="/ArfahAadil_CV.pdf" download className="resume-btn">Download Resume</a>
       </div>
     </header>
