@@ -13,7 +13,14 @@ function Header() {
       <div className="header-content">
         <h1>Arfah Aadil</h1>
         <p className="subtitle">MSc in Software Engineering | Full Stack Developer</p>
-        <a href="/ArfahAadil_CV.pdf" download className="resume-btn">Download Resume</a>
+        <a 
+        href={`${process.env.PUBLIC_URL}/ArfahAadil_CV.pdf`} 
+        target="_blank" 
+        rel="noopener noreferrer"
+        className="resume-btn"
+        >
+          Download Resume
+        </a>
       </div>
     </header>
   );
