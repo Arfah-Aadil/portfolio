@@ -1,14 +1,9 @@
 .contact {
-  background: linear-gradient(135deg, #7094e3, #56dfcf);
   padding: 2rem 0 3rem;
   text-align: center;
   color: rgb(57, 19, 19);
 }
 
-.contact:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
-}
 
 .contact h2 {
   font-size: 2.2rem;
@@ -30,6 +25,6 @@
 }
 
 .contact a:hover {
-  color: #ba6324;;
+  color: #e57b30;;
   transform: scale(1.05); 
 }
